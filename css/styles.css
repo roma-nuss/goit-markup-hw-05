@@ -671,7 +671,7 @@ img {
   transition: opacity 0.3s ease;
 }
 
-.modal.active {
+.modal.is-open {
   opacity: 1;
   visibility: visible;
 }
