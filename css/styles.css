@@ -569,9 +569,12 @@ img {
 }
 
 .footer-form {
-  margin-left: 80px;
   display: flex;
   gap: 24px;
+}
+
+.footer-middle {
+  margin-left: auto;
 }
 
 .footer-middle-text {
@@ -582,7 +585,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  margin-left: 80px;
 }
 
 .footer-input {
@@ -613,7 +615,6 @@ img {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -793,7 +794,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   font-size: 12px;
-  margin-top: 16px;
 }
 
 .modal-text::placeholder {
@@ -882,7 +882,7 @@ img {
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
-  margin: 24px auto;
+  margin: 0 auto;
   display: block;
   min-width: 169px;
   height: 56px;
